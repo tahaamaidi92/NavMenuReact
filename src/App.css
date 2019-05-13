@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai');
+.div1{
+  display: flex;
+  justify-content: center;
+  margin: 10% 15%;
+  padding: 20px;
+  width: 50%;
+  height: 30%;
+}
+.ul-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  border-bottom: 2px solid #2196EF;
+  margin: auto auto;
+}
+li{
+  padding: 0 20px;
+  font-family: 'Baloo Bhai', cursive;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 50px
+}
+li:hover{
+  cursor: pointer;
+  color: #2196EF;
+}
+.li2{
+  position: relative;
+}
+.li2:hover{
+  cursor: pointer; 
+display: block;
+}
+.on{
+  display: none;
+  position:absolute;
+}
+.off{
+  display: block;
+  position: absolute;
+  border:3px solid #2196EF;
+  width: 300px
+}
+
+a{
+  display: flex;
+ text-decoration: none;
+ font-size: 25px ;
+ color:black;
+ flex-wrap: nowrap;
+}
+a:hover{
+  cursor: pointer;
+  color:#2196EF;
+  background-color: black;
+}
